@@ -25,7 +25,7 @@ const Form = () => {
   return (
     <form className='password-form' onSubmit={onSubmit}>
       <h2>Generate a secure password!</h2>
-      <div className='passowrd-inputs'>
+      <div className='password-inputs'>
         <h4 className='password-text'>{password}</h4>
         <div className="flex">
           <label htmlFor="password-length">Password Length</label>

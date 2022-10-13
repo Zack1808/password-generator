@@ -9,9 +9,9 @@ import '../css/App.css';
 // Creating the App component
 const App = () => {
   return (
-    <div>
+    <>
       <Form />
-    </div>
+    </>
   )
 }
 
