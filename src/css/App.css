@@ -4,15 +4,16 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  color: white;
   font-family: "Encode Sans SC", sans-serif;
 }
 
 .app-container {
+  padding-block: 20px;
   width: 100%;
   min-height: 100svh;
   background-color: rgb(40, 40, 40);
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
 }

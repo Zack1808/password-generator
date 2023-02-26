@@ -20,18 +20,23 @@ input {
   padding: 10px;
   display: flex;
   border-radius: 5px;
-  justify-content: start;
+  justify-content: flex-start;
+  color: white;
 }
 
 input:focus {
   outline: none;
 }
 
-.character-count {
+.input-container {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.input-container input {
+  width: auto;
 }
 
 input[type="number"]::-webkit-inner-spin-button {

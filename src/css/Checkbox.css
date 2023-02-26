@@ -1,0 +1,20 @@
+.check-container {
+  width: 30px;
+  background-color: transparent;
+  aspect-ratio: 1 / 1;
+  border: 2px solid white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.check-container input {
+  display: none;
+}
+
+.active {
+  background-color: white;
+  color: black;
+}
