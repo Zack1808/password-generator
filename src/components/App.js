@@ -4,7 +4,7 @@ import React from "react";
 import "../css/App.css";
 
 // Importing the costume components
-import Form from "../css/Form";
+import Form from "./Form";
 
 // Creating the App component
 const App = () => {
