@@ -22,6 +22,7 @@ input {
   border-radius: 5px;
   justify-content: flex-start;
   color: white;
+  user-select: text;
 }
 
 input:focus {
@@ -36,7 +37,7 @@ input:focus {
 }
 
 .input-container input {
-  width: auto;
+  width: 50%;
 }
 
 input[type="number"]::-webkit-inner-spin-button {
