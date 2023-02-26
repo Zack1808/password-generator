@@ -10,14 +10,19 @@ const Checkbox = forwardRef(({ name }, ref) => {
   const [checked, setChecked] = useState(false);
 
   return (
-    <label
-      htmlFor={name}
+    <div
       className={`check-container ${checked && "active"}`}
       onClick={() => setChecked((prevState) => !prevState)}
     >
-      <input type="checkbox" name={name} ref={ref} />
+      <input
+        type="checkbox"
+        name={name}
+        checked={checked}
+        ref={ref}
+        id={name}
+      />
       {checked && <UilCheck />}
-    </label>
+    </div>
   );
 });
 
