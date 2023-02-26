@@ -43,6 +43,8 @@ const Form = () => {
           inputMode="numeric"
           ref={lengthRef}
           placeholder="6-30 characters"
+          max={30}
+          min={6}
         />
       </div>
       <div className="input-container">
