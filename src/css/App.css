@@ -8,4 +8,7 @@
   width: 100%;
   min-height: 100svh;
   background-color: rgb(40, 40, 40);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

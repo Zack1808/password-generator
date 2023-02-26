@@ -3,9 +3,16 @@ import React from "react";
 // Importing the style file
 import "../css/App.css";
 
+// Importing the costume components
+import Form from "../css/Form";
+
 // Creating the App component
 const App = () => {
-  return <div className="app-container"></div>;
+  return (
+    <div className="app-container">
+      <Form />
+    </div>
+  );
 };
 
 // Exporting the component
