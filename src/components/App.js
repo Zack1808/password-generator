@@ -1,18 +1,12 @@
-import React from 'react'
-
-// Importing the costume made component
-import Form from './Form'
+import React from "react";
 
 // Importing the style file
-import '../css/App.css';
+import "../css/App.css";
 
 // Creating the App component
 const App = () => {
-  return (
-    <>
-      <Form />
-    </>
-  )
-}
+  return <div className="app-container"></div>;
+};
 
-export default App
+// Exporting the component
+export default App;
