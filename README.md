@@ -22,7 +22,7 @@ This is a simple React based password generator that allows the user to generate
 
 You can try out the Password Generator Web App by visiting the [live demo](https://zack1808.github.io/password-generator/)
 
-## How to run the app
+## How to run the app locally
 
 If you want to run the app localy:
 
