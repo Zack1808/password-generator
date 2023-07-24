@@ -16,6 +16,7 @@ This is a simple React based password generator that allows the user to generate
 - Define the password length: costumizable password length from 6 to 30 characters
 - Include numbers: includes numbers from 0 to 9 during the password generation
 - Include special characters: includes the special characters "[]{}!?|-\_\*#/()&%$" during the password generation
+- Responsive design to adapt to different screen sizes
 
 ## Live demo
 
